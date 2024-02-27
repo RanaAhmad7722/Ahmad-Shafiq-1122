@@ -1,220 +1,158 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS-AssignmenT-3</title>
 
-    <link rel="stylesheet" href="styles/general.css" />
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/main.css" />
-  </head>
-  <body>
-    <header>
-      <div>
-        <a href="index.html"><strong>BR</strong> Architects</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+  <title>AR Architect</title>
+</head>
+
+<body>
+  <header class="clearfix">
+    <nav>
+      <div class="logo-div">
+        <p><strong>AR</strong> Architects</p>
       </div>
-      <div class="nav">
-        <div><a href="projects.html">Projects</a></div>
-        <div><a href="About.html">About</a></div>
-        <div><a href="Contact.html">Contact</a></div>
+      <div class="links-div">
+        <ul>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="about.html">Abouts</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </div>
-    </header>
-
-    <main>
-      <div class="logo-container">
-        <img src="./images/WhatsApp Image 2024-02-26 at 9.02.51 PM.jpeg" alt="" />
-        <div>
-          <span class="BR">BR</span><span class="architect">Architects</span>
+    </nav>
+  </header>
+  <main>
+    <div class="company-img">
+      <p><span><strong>BR</strong></span> Architects</p>
+    </div>
+    <br><br>
+    <p>Projects</p><br>
+    <div id="project-div">
+      <hr style="border-color: #fafafa;"><br>
+      <div class="row">
+        <div class="col">
+          <p>Summer House</p>
+          <img src="./images/house1.jpg" alt="Hosuse">
         </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      
-      <div class="projects">
-        <div class="text">Projects<br><br></div>
-        
-
-        <div class="project-images">
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 9.02.50 PM.jpeg" alt="" />
-            </div>
-                <div class="card-overlay">Brick House</div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 9.02.51 PM (1).jpeg" alt="" />
-                <div class="card-overlay">Renovated</div>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 9.02.49 PM (1).jpeg" alt="" />
-                <div class="card-overlay">Barn House</div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 9.02.40 PM.jpeg" alt="" />
-                <div class="card-overlay">Summer House</div>
-              </div>
-            </div>
-          </div>
+        <div class="col">
+          <p>Brick House</p>
+          <img src="./images/house2.jpg" alt="House">
         </div>
-        <div class="project-images">
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 9.02.50 PM.jpeg" alt="" />
-                <div class="card-overlay">Renovated</div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 9.02.40 PM.jpeg" alt="" />
-                <div class="card-overlay">Summer House</div>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <div class="card-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 9.02.49 PM (1).jpeg" alt="" />
-                <div class="card-overlay">Brick House</div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 9.02.51 PM (1).jpeg" alt="" />
-                <div class="card-overlay">Barn House</div>
-              </div>
-            </div>
-          </div>
+        <div class="col">
+          <p>Renovated</p>
+          <img src="./images/house3.jpg" alt="House">
         </div>
-
-        <div class="text">About</div>
-        <div class="discription">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam
-            saepe aspernatur exercitationem eaque sunt sed minima, optio totam
-            veritatis, dolor aliquid laboriosam libero consectetur sapiente hic
-            ducimus ipsam corrupti similique? Nesciunt saepe aliquid ea
-            similique ad numquam pariatur amet! Ea rerum, reiciendis quia
-            veritatis quisquam nisi eum molestiae repellendus excepturi ad,
-            voluptate aliquid in similique, rem saepe nam. Aliquid, nisi?
-          </p>
-        </div>
-
-        <div class="Team">
-          <div class="column">
-            <div class="Team-card">
-              <div class="Team-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 10.01.43 PM.jpeg" alt="" />
-                <div class="name">John Doe</div>
-                <div class="position">CEO & Founder</div>
-                <div class="bio">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Eligendi perferendis ad debitis. Sunt ex nisi beatae atque.
-                </div>
-                <div class="contact-btn"><button>Contact</button></div>
-              </div>
-            </div>
-
-            <div class="Team-card">
-              <div class="Team-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 9.02.47 PM.jpeg" alt="" />
-                <div class="name">Jane Doe</div>
-                <div class="position">Architect</div>
-                <div class="bio">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Eligendi perferendis ad debitis. Sunt ex nisi beatae atque.
-                </div>
-                <div class="contact-btn"><button>Contact</button></div>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="Team-card">
-              <div class="Team-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 9.02.48 PM.jpeg" alt="" />
-                <div class="name">Mike Ross</div>
-                <div class="position">Architect</div>
-                <div class="bio">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                  nam aspernatur blanditiis maiores qui hic debitis.
-                </div>
-                <div class="contact-btn"><button>Contact</button></div>
-              </div>
-            </div>
-
-            <div class="Team-card">
-              <div class="Team-image">
-                <img src="./images/WhatsApp Image 2024-02-26 at 9.02.49 PM.jpeg" alt="" />
-                <div class="name">Dan Star</div>
-                <div class="position">Architect</div>
-                <div class="bio">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                  nam aspernatur blanditiis maiores qui hic debitis.
-                </div>
-                <div class="contact-btn"><button>Contact</button></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <br>
-        <div class="text" style="margin-right: 96%;">Contact</div>
-        <br>
-        <br>
-        <div class="contact-form">
-          <div>Lets get in touch and talk about your next project.</div>
-          <form action="">
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Email"
-              required
-            />
-            <input
-              type="text"
-              name="subject"
-              id="subject"
-              placeholder="Subject"
-              required
-            />
-            <input
-              type="text"
-              name="comment"
-              id="comment"
-              placeholder="Comment"
-              required
-            />
-            <button>SEND MESSAGE</button>
-          </form>
-        </div>
-
-        <div class="map">
-          <img src="./images/WhatsApp Image 2024-02-26 at 9.02.46 PM.jpeg" alt="" />
+        <div class="col">
+          <p>Barn House</p>
+          <img src="./images/house4.jpg" alt="House">
         </div>
       </div>
-    </main>
+      <div class="row">
+        <div class="col">
+          <p>Summer House</p>
+          <img src="./images/house2.jpg" alt="House">
+        </div>
+        <div class="col">
+          <p>Brick House</p>
+          <img src="./images/house1.jpg" alt="House">
+        </div>
+        <div class="col">
+          <p>Renovated</p>
+          <img src="./images/house4.jpg" alt="House">
+        </div>
+        <div class="col">
+          <p>Barn House</p>
+          <img src="./images/house3.jpg" alt="House">
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <p>About</p> <br>
+    <hr><br>
+    <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem totam veniam vero expedita nisi esse ullam sunt
+      nostrum nihil laboriosam eius culpa consequatur, voluptatem deserunt iusto nulla. Exercitationem, neque
+      reprehenderit. Corporis reprehenderit qui facere veritatis. At rem quod suscipit!
+      reprehenderit. Corporis reprehenderit qui facere veritatis. At rem magnam quod suscipit! Quia quam ex, sequi
+      minima culpa saepe provident voluptatem dolor aspernatur ducimus ipsa excepturi. Quas voluptatum molestias hic
+      eligendi quisquam.</p> <br><br>
 
-    <footer>
-      <div>Powered by <span>ARHAM</span></div>
-    </footer>
-  </body>
+    <div id="about-div">
+      <div class="img-content-div">
+        <div class="img-div">
+          <img src="./images/team2.jpg" alt="">
+        </div>
+        <div class="content-div">
+          <br><a href="john.html">John Doe</a><br>
+          <span>CEO & Founder</span>
+          <br>
+          <p>Phaseluss eget enim eu lectus faucibus <br> vestibulum. Suspenisse sodale pellentesque <br>elementum.</p>
+          <button>Contact</button>
+        </div>
+      </div>
+      <div class="img-content-div">
+        <div class="img-div">
+          <img src="./images/team4.jpg" alt="CEO">
+        </div>
+        <div class="content-div">
+          <br><a href="jane.html">Jane Doe</a><br>
+          <span>Architect</span>
+          <br>
+          <p>Phaseluss eget enim eu lectus faucibus <br> vestibulum. Suspenisse sodale pellentesque <br>elementum.</p>
+          <button>Contact</button>
+        </div>
+      </div>
+      <div class="img-content-div">
+        <div class="img-div">
+          <img src="./images/team1.jpg" alt="">
+        </div>
+        <div class="content-div">
+          <br><a href="mike.html">Mike Ross</a><br>
+          <span>Architect</span>
+          <br>
+          <p>Phaseluss eget enim eu lectus faucibus <br> vestibulum. Suspenisse sodale pellentesque <br>elementum.</p>
+          <button>Contact</button>
+        </div>
+      </div>
+      <div class="img-content-div">
+        <div class="img-div">
+          <img src="./images/team3.jpg" alt="">
+        </div>
+        <div class="content-div">
+          <br><a href="dan.html">Dan Star</a><br>
+          <span>Architect</span>
+          <br>
+          <p>Phaseluss eget enim eu lectus faucibus <br> vestibulum. Suspenisse sodale pellentesque <br>elementum.</p>
+          <button>Contact</button>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <p>Contact</p><br>
+    <hr>
+    <span style="padding: 15px 0; font-size: small;">Lets get in touch and talk about your next project.</span>
+    <form action="none">
+      <input type="text" name="name" id="name" placeholder="Name" required class="form">
+      <input type="email" name="emain" id="email" placeholder="Email" required class="form">
+      <input type="text" name="subject" id="subject" placeholder="Subject" required class="form">
+      <input type="text" name="comment" id="comment" placeholder="Comment" required class="form">
+      <input type="submit" value="Send Message">
+    </form>
+    <br>
+    <br>
+    <div class="map-div">
+
+    </div>
+  </main>
+  <footer>
+    <p>Powered by <span><a href="https://www.w3schools.com/"> W3.CSS</a></span></p>
+  </footer>
+</body>
+
 </html>
